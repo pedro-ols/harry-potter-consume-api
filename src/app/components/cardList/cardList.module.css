@@ -1,8 +1,11 @@
-
 .cardsList{
     width: 80%;
     padding: 15%;
     border-radius: 2rem;
     background-color: rgb(206, 213, 225, 0.7);
     margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

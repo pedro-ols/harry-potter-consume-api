@@ -46,7 +46,7 @@ const CardList = () => {
     return (
         <section className={styles.cardsList}>
             {characters.map((character) => (
-                <Card key={character.id} character={characters} />
+                <Card key={character.id} character={character} />
             ))};
         </section>
     )
