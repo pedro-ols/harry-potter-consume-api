@@ -1,0 +1,10 @@
+.card{
+    width: 30%;
+    height: 12rem;
+    background-color: 'red';
+}
+.characterImageContainer{
+    height: 60%;
+    width: 100%;
+    
+}
