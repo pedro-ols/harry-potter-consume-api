@@ -8,11 +8,11 @@ const Card = ({ character }) => {
             </div>
             <div className={styles.cardTitle}>
                 <h1 className={styles.character}>{character.name}</h1>
-                <h2 className={styles.characterText}>👶 {character.dateOfBirth || "none"}</h2>
-                <h2 className={styles.characterText}>🏠 {character.house || "none"}</h2>
+                <h2 className={styles.characterText}>👶 {character.dateOfBirth || "unknown"}</h2>
+                <h2 className={styles.characterText}>🏠 {character.house || "none/unknown"}</h2>
                 <h2 className={styles.characterText}>🎭 {character.actor || "none"}</h2>
-                <h2 className={styles.characterText}>🧙‍♂️ {character.species || "none"}</h2>
-                <h2 className={styles.characterText}>🪄 {character.patronus || "none"}</h2>
+                <h2 className={styles.characterText}>🧙‍♂️ {character.species || "none/unknown"}</h2>
+                <h2 className={styles.characterText}>🪄 {character.patronus || "none/unknown"}</h2>
             </div>
         </div>
     )
